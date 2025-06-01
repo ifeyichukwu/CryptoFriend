@@ -1,0 +1,5 @@
+# requirements.txt
+
+# List of dependencies for the CryptoFriend chatbot
+requests
+pyyaml 

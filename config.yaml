@@ -1,0 +1,9 @@
+# config.yaml
+
+# Configuration settings for the CryptoFriend chatbot
+
+api_keys:
+  crypto_data_provider: "YOUR_API_KEY_HERE"
+
+thresholds:
+  volatility: 0.05  # Example threshold for market volatility 
