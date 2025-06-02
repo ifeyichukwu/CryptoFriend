@@ -3,23 +3,25 @@
 # Helper functions for the chatbot
 
 def fetch_crypto_data(crypto_name):
-    # Mockup data for testing
-    mock_data = {
+    # Updated mock data for testing
+    crypto_db = {
         "Bitcoin": {
-            "current_price": 50000,
-            "7_day_trend": "up",
-            "volatility": 0.03,
-            "consensus_mechanism": "PoW",
-            "energy_consumption": "High",
-            "project_maturity": "Established"
+            "price_trend": "rising",
+            "market_cap": "high",
+            "energy_use": "high",
+            "sustainability_score": 3/10
         },
         "Ethereum": {
-            "current_price": 4000,
-            "7_day_trend": "down",
-            "volatility": 0.05,
-            "consensus_mechanism": "PoS",
-            "energy_consumption": "Medium",
-            "project_maturity": "Emerging"
+            "price_trend": "stable",
+            "market_cap": "high",
+            "energy_use": "medium",
+            "sustainability_score": 6/10
+        },
+        "Cardano": {
+            "price_trend": "rising",
+            "market_cap": "medium",
+            "energy_use": "low",
+            "sustainability_score": 8/10
         }
     }
-    return mock_data.get(crypto_name, None) 
+    return crypto_db.get(crypto_name, None) 
