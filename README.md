@@ -40,3 +40,31 @@ Responds to queries like:
 🌱 Sustainability Analysis:
 ...
 ✅ Investment Verdict: High Potential / Moderate Risk / Unsustainable
+
+```
+
+## 🗣️ Supported Queries
+
+The CryptoFriend chatbot can respond to the following types of queries:
+
+1. **Investment Queries**:
+   - "Should I invest in [Cryptocurrency]?"
+   - "Is [Cryptocurrency] a good investment?"
+
+2. **Trending Cryptocurrencies**:
+   - "Which crypto is trending up?"
+   - "What cryptocurrencies are trending up?"
+
+3. **Sustainable Cryptocurrencies**:
+   - "What's the most sustainable coin?"
+   - "Which cryptocurrency is the most sustainable?"
+
+4. **Market Cap**:
+   - "Which cryptocurrencies have a high market cap?"
+   - "Tell me about cryptocurrencies with high market cap."
+
+5. **Energy Use**:
+   - "Which cryptocurrencies have low energy use?"
+   - "Tell me about cryptocurrencies with low energy use."
+
+These queries help users explore different aspects of cryptocurrencies, such as investment potential, trends, sustainability, market cap, and energy efficiency.
